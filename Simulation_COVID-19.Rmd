@@ -316,7 +316,6 @@ baseline_plot_df %>% filter(Compartment %in% c("e.num", "i.num",
     scale_colour_manual(values = compcols, labels = complabels) + 
     theme(plot.background = element_rect(fill="gray")) + labs(title = "BOS Baseline Simulations (low rate of self-quarantine, social distance)", x = "Days Since Start of COVID-19", 
     y = "Persons (scaled 100)")
---
 ```
 
 Take a closer look at the distribution of the number of cases over time. 
