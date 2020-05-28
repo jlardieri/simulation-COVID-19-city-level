@@ -62,7 +62,7 @@ for (source_file in source_files) {
 read in data :
 *I chose a hospital capacity dataset from Data World. The numbers were provided by the Harvard Global Health Institute and are broken out by Hospital Referral Regions (HRR) for 305 local hospital markets in the country. At this granular level, it's possible to show how a region's resources may be stressed as COVID-19 infection rates rise.* 
 ```{r,warning=FALSE}
-setwd("~/Documents/MSSP SPRING 2020/Foundations/Project")
+setwd("")
 #read in and remove note on first line of csv
 df <- read.csv("HRR_Population.csv",header = TRUE,colClasses = "character")[-1,]
 attach(df)
